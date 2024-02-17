@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign-In Page</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/signin.css'>
+</head>
+<body>
+    <header id="nav">
+        <div class="nav--list">
+             <a href="lobby.html">
+                 <h3 id="logo">
+                     <img src="./images/logo.png" alt="Site Logo">
+                     <span>Secure P2P VC</span>
+                 </h3>
+             </a>
+        </div>
+     </header>
+
+
+
+  <h1>Sign In</h1>
+  <form method="post" action="signin.php">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <a href="lobby.html"><button type="submit" value="submit" >Sign In</button></a>
+  </form>
+  <script src="js/signin.js"></script>
+</body>
+</html>
